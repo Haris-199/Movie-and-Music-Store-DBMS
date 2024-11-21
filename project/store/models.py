@@ -23,12 +23,15 @@ class Album(models.Model):
     price = models.PositiveIntegerField()
 
     def __str__(self):
-        return f"{self.name} By {self.artist.name}"
+        return f"{self.name} - {self.artist.name}"
 
 class Franchise(models.Model):
     product_id = models.CharField(max_length=20, primary_key=True)
     name = models.CharField(max_length=64, unique=True)
-    price = models.PositiveIntegerField() 
+    price = models.PositiveIntegerField()
+
+    def __str__(self):
+        return self.name
 
 class Movie(models.Model):
     product_id = models.CharField(max_length=20, primary_key=True)
