@@ -1,0 +1,30 @@
+{% extends "store/base.html" %}
+{% block content %}
+    <h2>Artists</h2>
+    <table class="table table-striped border">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Genres</th>
+                <th scope="col">Listeners</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for artist in artists %}
+                <tr >
+                    <td>{{ artist.name }}</td>
+                    <td>{{ artist.genres }}</td>
+                    <td>{{ artist.listeners }}</td>
+                    <td>
+                        <div class="text-center w-100">
+                            <a class="col- btn btn-secondary mx-2" href="{% url 'artist-update' artist.name %}">Update</a>
+                            <a class="col- btn btn-danger mx-2" href="{% url 'artist-delete' artist.name %}">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            {% endfor %} 
+        </tbody>
+    </table>
+    <a class="col- btn btn-primary mx-2" href="{% url 'artist-create'%}">Add new artist</a>
+{% endblock %}

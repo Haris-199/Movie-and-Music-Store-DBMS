@@ -15,6 +15,7 @@ class SongCreateView(CreateView):
 
 class SongUpdateView(UpdateView):
     model = Song
+    template_name = 'store/song_update_form.html'
     fields = ['product_id', 'name', 'artist', 'genre', 'album', 'price']
     success_url = '/song/'
 

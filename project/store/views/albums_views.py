@@ -15,6 +15,7 @@ class AlbumCreateView(CreateView):
 
 class AlbumUpdateView(UpdateView):
     model = Album
+    template_name = 'store/album_update_form.html'
     fields = ['product_id', 'name', 'artist', 'price']
     success_url = '/album/'
 

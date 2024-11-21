@@ -24,34 +24,23 @@
     />
 
     {% if title %}
-    <title>Movie and Music Store DBMS - {{title}}</title>
+      <title>Movie and Music Store DBMS - {{title}}</title>
     {% else %}
-    <title>Movie and Music Store DBMS</title>
+      <title>Movie and Music Store DBMS</title>
     {% endif %}
+
   </head>
   <body>
     <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'store-home' %}">Home</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggle"
-            aria-controls="navbarToggle"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" href="{% url 'store-song' %}">Artists</a>
-                <a class="nav-item nav-link" href="{% url 'store-song' %}">Songs</a>
-                <a class="nav-item nav-link" href="{% url 'store-album' %}">Albums</a>
-                <a class="nav-item nav-link" href="{% url 'store-song' %}">Franchises</a>
-                <a class="nav-item nav-link" href="{% url 'store-song' %}">Movies</a>
+                <a class="nav-link" href="{% url 'store-artist' %}">Artists</a>
+                <a class="nav-link" href="{% url 'store-song' %}">Songs</a>
+                <a class="nav-link" href="{% url 'store-album' %}">Albums</a>
+                <a class="nav-link" href="#">Franchises</a>
+                <a class="nav-link" href="#">Movies</a>
             </div>
           </div>
         </div>
@@ -59,7 +48,10 @@
     </header>
     <main role="main" class="container">
       <div class="row">
-        <div class="col-md-8">{% block content %}{% endblock %}</div>
+        <div class="col-md-8">
+          {% block content %}
+          {% endblock %}
+        </div>
       </div>
     </main>
 
