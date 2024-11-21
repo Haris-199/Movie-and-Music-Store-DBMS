@@ -1,10 +1,10 @@
 from django.urls import path
-from .views import (home, ArtistListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView)
+from .views import (home, ArtistListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView, FranchiseListView, FranchiseCreateView, FranchiseUpdateView, FranchiseDeleteView)
 
 
 urlpatterns = [
     path('', home, name='store-home'),
-
+    
     path('artist/', ArtistListView.as_view(), name='store-artist'),
     path('artist/create', ArtistCreateView.as_view(), name='artist-create'),
     path('artist/<pk>/update', ArtistUpdateView.as_view(), name='artist-update'),
@@ -19,5 +19,10 @@ urlpatterns = [
     path('album/create', AlbumCreateView.as_view(), name='album-create'),
     path('album/<pk>/update', AlbumUpdateView.as_view(), name='album-update'),
     path('album/<pk>/delete', AlbumDeleteView.as_view(), name='album-delete'),
+
+    path('franchise/', FranchiseListView.as_view(), name='store-franchise'),
+    path('franchise/create', FranchiseCreateView.as_view(), name='franchise-create'),
+    path('franchise/<pk>/update', FranchiseUpdateView.as_view(), name='franchise-update'),
+    path('franchise/<pk>/delete', FranchiseDeleteView.as_view(), name='franchise-delete'),
 
 ]
