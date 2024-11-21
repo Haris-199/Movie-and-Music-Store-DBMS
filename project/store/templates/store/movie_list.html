@@ -2,7 +2,7 @@
 {% block content %}
     <h2>Movies</h2>
     <table class="table table-striped border">
-        <thead>
+        <thead class="bg-dark text-light">
             <tr>
                 <th scope="col">Product Id</th>
                 <th scope="col">Name</th>
@@ -22,7 +22,7 @@
                     <td>{{ movie.genre }}</td>
                     <td>{{ movie.director }}</td>
                     <td>{{ movie.actors }}</td>
-                    <td>{{ movie.price|floatformat:2 }}</td>
+                    <td>${{ movie.price|floatformat:2 }}</td>
                     <td>{{ movie.franchise.name }}</td>
                     <td>
                         <div class="text-center w-100">

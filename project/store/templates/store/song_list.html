@@ -2,7 +2,7 @@
 {% block content %}
     <h2>Songs</h2>
     <table class="table table-striped border">
-        <thead>
+        <thead class="bg-dark text-light">
             <tr>
                 <th scope="col">Product Id</th>
                 <th scope="col">Name</th>
@@ -21,11 +21,11 @@
                     <td>{{ song.artist.name }}</td>
                     <td>{{ song.genre }}</td>
                     <td>{{ song.album }}</td>
-                    <td>{{ song.price|floatformat:2 }}</td>
+                    <td>${{ song.price|floatformat:2 }}</td>
                     <td>
                         <div class="text-center w-100">
-                            <a class="col- btn btn-secondary mx-2" href="{% url 'song-update' song.product_id %}">Update</a>
-                            <a class="col- btn btn-danger mx-2" href="{% url 'song-delete' song.product_id %}">Delete</a>
+                            <a class="col- btn btn-secondary mx-2 my-1" href="{% url 'song-update' song.product_id %}">Update</a>
+                            <a class="col- btn btn-danger mx-2 my-1" href="{% url 'song-delete' song.product_id %}">Delete</a>
                         </div>
                     </td>
                 </tr>
