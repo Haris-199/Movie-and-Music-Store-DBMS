@@ -1,27 +1,27 @@
 [
     {
         "product_id": "21",
-        "franchise_name": "Marvel Cinematic Universe",
+        "name": "Marvel Cinematic Universe",
         "price": 50
     },
     {
         "product_id": "22",
-        "franchise_name": "Harry Potter",
+        "name": "Harry Potter",
         "price": 80
     },
     {
         "product_id": "23",
-        "franchise_name": "Naruto The Movie",
+        "name": "Naruto The Movie",
         "price": 30
     },
     {
         "product_id": "24",
-        "franchise_name": "Star Wars",
+        "name": "Star Wars",
         "price": 70
     },
     {
         "product_id": "25",
-        "franchise_name": "Batman Trilogy",
+        "name": "Batman Trilogy",
         "price": 40
     }
 ]

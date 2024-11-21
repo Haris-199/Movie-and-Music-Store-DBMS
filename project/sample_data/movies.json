@@ -1,56 +1,56 @@
 [
     {
         "product_id": "31",
-        "movie_name": "The Dark Knight",
+        "name": "The Dark Knight",
         "genre": "Action",
         "director": "Christopher Nolan",
         "actors": "Christian Bale, Heath Ledger",
         "price": "15",
-        "franchise_name": "Batman Trilogy"
+        "franchise": "Batman Trilogy"
     },
     {
         "product_id": "32",
-        "movie_name": "Iron Man",
+        "name": "Iron Man",
         "genre": "Action",
         "director": "Jon Favreau",
         "actors": "Robert Downey Jr., Gwyneth Paltrow",
         "price": "15",
-        "franchise_name": "Marvel Cinematic Universe"
+        "franchise": "Marvel Cinematic Universe"
     },
     {
         "product_id": "33",
-        "movie_name": "Star Wars: Episode II - Attack of the Clones",
+        "name": "Star Wars: Episode II - Attack of the Clones",
         "genre": "Sci-Fi",
         "director": "George Lucas",
         "actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
         "price": "15",
-        "franchise_name": "Star Wars"
+        "franchise": "Star Wars"
     },
     {
         "product_id": "34",
-        "movie_name": "The Truman Show",
+        "name": "The Truman Show",
         "genre": "Psychological Drama",
         "director": "Peter Weir",
         "actors": "Jim Carrey",
         "price": "15",
-        "franchise_name": null
+        "franchise": null
     },
     {
         "product_id": "35",
-        "movie_name": "The Last: Naruto the Movie",
+        "name": "The Last: Naruto the Movie",
         "genre": "Action",
         "director": "Tsuneo Kobayashi",
         "actors": null,
         "price": "15",
-        "franchise_name": "Naruto The Movie"
+        "franchise": "Naruto The Movie"
     },
     {
         "product_id": "36",
-        "movie_name": "The Avengers",
+        "name": "The Avengers",
         "genre": "Action",
         "director": "Chris Evans",
         "actors": "Robert Downey Jr., Mark Ruffalo",
         "price": "15",
-        "franchise_name": "Marvel Cinematic Universe"
+        "franchise": "Marvel Cinematic Universe"
     }
 ]

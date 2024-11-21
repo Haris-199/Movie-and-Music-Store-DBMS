@@ -1,56 +1,56 @@
 [
     {
-        "artist_name": "Kendrick Lamar",
+        "name": "Kendrick Lamar",
         "genres": "Hip-Hop",
         "listeners": 100000
     },
     {
-        "artist_name": "BTS",
+        "name": "BTS",
         "genres": "K-Pop",
         "listeners": 100000
     },
     {
-        "artist_name": "Taylor Swift",
+        "name": "Taylor Swift",
         "genres": "Pop",
         "listeners": 100000
     },
     {
-        "artist_name": "Imagine Dragons",
+        "name": "Imagine Dragons",
         "genres": "Rock",
         "listeners": 100000
     },
     {
-        "artist_name": "Ph-1",
+        "name": "Ph-1",
         "genres": "K Hip-Hop",
         "listeners": 10000
     },
     {
-        "artist_name": "Eminem",
+        "name": "Eminem",
         "genres": "Hip-Hop",
         "listeners": 100000
     },
     {
-        "artist_name": "JID",
+        "name": "JID",
         "genres": "Hip-Hop",
         "listeners": 50000
     },
     {
-        "artist_name": "Lana Del Rey",
+        "name": "Lana Del Rey",
         "genres": "Alternative",
         "listeners": 100000
     },
     {
-        "artist_name": "Joji",
+        "name": "Joji",
         "genres": "lo-fi",
         "listeners": 4000
     },
     {
-        "artist_name": "Laufey",
+        "name": "Laufey",
         "genres": "Jazz pop",
         "listeners": 7000
     },
     {
-        "artist_name": "beabadoobee",
+        "name": "beabadoobee",
         "genres": "Indie rock",
         "listeners": 7000
     }
