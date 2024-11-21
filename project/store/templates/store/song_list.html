@@ -1,0 +1,36 @@
+{% extends "store/base.html" %}
+{% block content %}
+    <h2>Songs</h2>
+    <table class="table table-striped border">
+        <thead>
+            <tr>
+                <th scope="col">Product Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Artist</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Album</th>
+                <th scope="col">Price</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for song in songs %}
+                <tr >
+                    <td>{{ song.product_id }}</td>
+                    <td>{{ song.name }}</td>
+                    <td>{{ song.artist.name }}</td>
+                    <td>{{ song.genre }}</td>
+                    <td>{{ song.album }}</td>
+                    <td>{{ song.price|floatformat:2 }}</td>
+                    <td>
+                        <div class="text-center w-100">
+                            <a class="col- btn btn-secondary mx-2" href="{% url 'song-update' song.product_id %}">Update</a>
+                            <a class="col- btn btn-danger mx-2" href="{% url 'song-delete' song.product_id %}">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            {% endfor %} 
+        </tbody>
+    </table>
+    <a class="col- btn btn-primary mx-2" href="{% url 'song-create'%}">Add new song</a>
+{% endblock %}

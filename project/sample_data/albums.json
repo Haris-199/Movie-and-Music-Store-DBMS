@@ -1,0 +1,38 @@
+[
+    {
+        "product_id": "11",
+        "artist_name": "Kendrick Lamar",
+        "album_name": "DAMN.",
+        "price": 20
+    },
+    {
+        "product_id": "12",
+        "artist_name": "Lana Del Rey",
+        "album_name": "Born to Die",
+        "price": 20
+    },
+    {
+        "product_id": "13",
+        "artist_name": "Joji",
+        "album_name": "Nectar",
+        "price": 20
+    },
+    {
+        "product_id": "14",
+        "artist_name": "Joji",
+        "album_name": "Ballads 1",
+        "price": 20
+    },
+    {
+        "product_id": "15",
+        "artist_name": "Laufey",
+        "album_name": "Everything I Know About Love",
+        "price": 20
+    },
+    {
+        "product_id": "16",
+        "artist_name": "beabadoobee",
+        "album_name": "Beatopia",
+        "price": 20
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "product_id": "1",
+        "song_name": "HUMBLE.",
+        "artist_name": "Kendrick Lamar",
+        "genre": "Hip-Hop",
+        "album_name": "DAMN.",
+        "price": 10
+    },
+    {
+        "product_id": "2",
+        "song_name": "Summertime Sadness",
+        "artist_name": "Lana Del Rey",
+        "genre": "Alternative",
+        "album_name": "Born to Die",
+        "price": 10
+    },
+    {
+        "product_id": "3",
+        "song_name": "Dark Paradise",
+        "artist_name": "Lana Del Rey",
+        "genre": "Trip hop",
+        "album_name": "Born to Die",
+        "price": 10
+    },
+    {
+        "product_id": "4",
+        "song_name": "Sanctuary",
+        "artist_name": "Joji",
+        "genre": "lo-fi",
+        "album_name": "Nectar",
+        "price": 10
+    },
+    {
+        "product_id": "5",
+        "song_name": "SLOW DANCING IN THE DARK",
+        "artist_name": "Joji",
+        "genre": "RnB",
+        "album_name": "Balads 1",
+        "price": 10
+    },
+    {
+        "product_id": "6",
+        "song_name": "Falling Behind",
+        "artist_name": "Laufey",
+        "genre": "Jazz pop",
+        "album_name": "Everything I Know About Love",
+        "price": 10
+    },
+    {
+        "product_id": "7",
+        "song_name": "the perfect pair",
+        "artist_name": "beabadoobee",
+        "genre": "Indie rock",
+        "album_name": "Beatopia",
+        "price": 10
+    },
+    {
+        "product_id": "8",
+        "song_name": "Glue Song",
+        "artist_name": "beabadoobee",
+        "genre": "Indie pop",
+        "album_name": null,
+        "price": 10
+    }
+]
