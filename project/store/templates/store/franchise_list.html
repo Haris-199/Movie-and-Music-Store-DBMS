@@ -1,7 +1,7 @@
 {% extends "store/base.html" %}
 {% block content %}
     <h2>Albums</h2>
-    <a class="col- btn btn-primary my-2" href="{% url 'franchise-create'%}">Add new franchise</a>
+    <a class="btn btn-primary my-2" href="{% url 'franchise-create'%}">Add new franchise</a>
     <form class="form-inline mb-2" action="/franchise/search/" method="get">
         <input class="form-control" type="search" name="name" aria-label="Search" placeholder="Name">
         <button class="btn btn-outline-success mx-2" type="submit">Search</button>

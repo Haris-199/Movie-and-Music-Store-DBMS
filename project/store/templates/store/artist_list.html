@@ -1,7 +1,7 @@
 {% extends "store/base.html" %}
 {% block content %}
     <h2>Artists</h2>
-    <a class=" btn btn-primary my-2" href="{% url 'artist-create'%}">Add new artist</a>
+    <a class="btn btn-primary my-2" href="{% url 'artist-create'%}">Add new artist</a>
     <form class="form-inline mb-2" action="/artist/search/" method="get">
         <input class="form-control" type="search" name="name" aria-label="Search" placeholder="Name">
         <button class="btn btn-outline-success mx-2" type="submit">Search</button>
