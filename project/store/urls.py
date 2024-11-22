@@ -1,11 +1,12 @@
 from django.urls import path
-from .views import (home, ArtistListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView, FranchiseListView, FranchiseCreateView, FranchiseUpdateView, FranchiseDeleteView, MovieListView, MovieCreateView, MovieUpdateView, MovieDeleteView)
+from .views import (home, ArtistListView, ArtistSearchListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView, FranchiseListView, FranchiseCreateView, FranchiseUpdateView, FranchiseDeleteView, MovieListView, MovieCreateView, MovieUpdateView, MovieDeleteView)
 
 
 urlpatterns = [
     path('', home, name='store-home'),
     
     path('artist/', ArtistListView.as_view(), name='store-artist'),
+    path('artist/search/', ArtistSearchListView.as_view(), name='artist-search'),
     path('artist/create', ArtistCreateView.as_view(), name='artist-create'),
     path('artist/<pk>/update', ArtistUpdateView.as_view(), name='artist-update'),
     path('artist/<pk>/delete', ArtistDeleteView.as_view(), name='artist-delete'),
