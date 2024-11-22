@@ -1,11 +1,6 @@
 {% extends "store/base.html" %}
 {% block content %}
     <h2>Movies</h2>
-    <a class="col- btn btn-primary my-2" href="{% url 'movie-create'%}">Add new movie</a>
-    <form class="form-inline mb-2" action="/movie/search/" method="get">
-        <input class="form-control" type="search" name="name" aria-label="Search" placeholder="Name">
-        <button class="btn btn-outline-success mx-2" type="submit">Search</button>
-    </form>
     <table class="table table-striped border">
         <thead class="bg-dark text-light">
             <tr>
@@ -39,4 +34,5 @@
             {% endfor %} 
         </tbody>
     </table>
+    <a class="col- btn btn-primary mx-2" href="{% url 'store-movie'%}">Go back</a>
 {% endblock %}
