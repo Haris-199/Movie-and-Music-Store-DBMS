@@ -1,3 +1,5 @@
+from django.views import View
+from django.template.response import TemplateResponse
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from store.models import Franchise
 
@@ -12,6 +14,13 @@ class FranchiseCreateView(CreateView):
     model = Franchise
     fields = ['product_id', 'name', 'price']
     success_url = '/franchise/'
+
+
+class FranchiseSearchListView(View):
+    def get(self, request):
+        franchise_name = request.GET.get('name', None)
+        return TemplateResponse(request, 'store/franchise_search.html', {'franchises': Franchise.objects.filter(name=franchise_name)})
+
 
 class FranchiseUpdateView(UpdateView):
     model = Franchise

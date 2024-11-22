@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import (home, ArtistListView, ArtistSearchListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongSearchListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumSearchListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView, FranchiseListView, FranchiseCreateView, FranchiseUpdateView, FranchiseDeleteView, MovieListView, MovieCreateView, MovieUpdateView, MovieDeleteView)
+from .views import (home, ArtistListView, ArtistSearchListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongSearchListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumSearchListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView, FranchiseListView, FranchiseSearchListView, FranchiseCreateView, FranchiseUpdateView, FranchiseDeleteView, MovieListView, MovieCreateView, MovieUpdateView, MovieDeleteView)
 
 
 urlpatterns = [
@@ -24,6 +24,7 @@ urlpatterns = [
     path('album/<pk>/delete', AlbumDeleteView.as_view(), name='album-delete'),
 
     path('franchise/', FranchiseListView.as_view(), name='store-franchise'),
+    path('franchise/search/', FranchiseSearchListView.as_view(), name='franchise-search'),
     path('franchise/create', FranchiseCreateView.as_view(), name='franchise-create'),
     path('franchise/<pk>/update', FranchiseUpdateView.as_view(), name='franchise-update'),
     path('franchise/<pk>/delete', FranchiseDeleteView.as_view(), name='franchise-delete'),
