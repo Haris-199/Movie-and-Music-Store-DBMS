@@ -1,0 +1,344 @@
+[
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Kendrick Lamar",
+            "genres": "Hip-Hop",
+            "listeners": 100000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "BTS",
+            "genres": "K-Pop",
+            "listeners": 100000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Taylor Swift",
+            "genres": "Pop",
+            "listeners": 100000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Imagine Dragons",
+            "genres": "Rock",
+            "listeners": 100000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Ph-1",
+            "genres": "K Hip-Hop",
+            "listeners": 10000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Eminem",
+            "genres": "Hip-Hop",
+            "listeners": 100000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "JID",
+            "genres": "Hip-Hop",
+            "listeners": 50000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Lana Del Rey",
+            "genres": "Alternative",
+            "listeners": 100000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Joji",
+            "genres": "lo-fi",
+            "listeners": 4000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "Laufey",
+            "genres": "Jazz pop",
+            "listeners": 7000
+        }
+    },
+    {
+        "model": "store.artist",
+        "fields": {
+            "name": "beabadoobee",
+            "genres": "Indie rock",
+            "listeners": 7000
+        }
+    },
+    {
+        "model":"store.song",
+        "fields": {
+            "product_id": "1",
+            "name": "HUMBLE.",
+            "artist": "Kendrick Lamar",
+            "genre": "Hip-Hop",
+            "album": "DAMN.",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "2",
+            "name": "Summertime Sadness",
+            "artist": "Lana Del Rey",
+            "genre": "Alternative",
+            "album": "Born to Die",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "3",
+            "name": "Dark Paradise",
+            "artist": "Lana Del Rey",
+            "genre": "Trip hop",
+            "album": "Born to Die",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "4",
+            "name": "Sanctuary",
+            "artist": "Joji",
+            "genre": "lo-fi",
+            "album": "Nectar",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "5",
+            "name": "SLOW DANCING IN THE DARK",
+            "artist": "Joji",
+            "genre": "RnB",
+            "album": "Balads 1",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "6",
+            "name": "Falling Behind",
+            "artist": "Laufey",
+            "genre": "Jazz pop",
+            "album": "Everything I Know About Love",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "7",
+            "name": "the perfect pair",
+            "artist": "beabadoobee",
+            "genre": "Indie rock",
+            "album": "Beatopia",
+            "price": 10
+        }
+    },
+    {
+        "model": "store.song",
+        "fields":{
+            "product_id": "8",
+            "name": "Glue Song",
+            "artist": "beabadoobee",
+            "genre": "Indie pop",
+            "album": null,
+            "price": 10
+        }
+    },
+    {
+        "model": "store.album",
+        "fields": {
+            "product_id": "11",
+            "name": "DAMN.",
+            "artist": "Kendrick Lamar",
+            "price": 20
+        }
+    },
+    {
+        "model": "store.album",
+        "fields": {
+            "product_id": "12",
+            "name": "Born to Die",
+            "artist": "Lana Del Rey",
+            "price": 20
+        }
+    },
+    {
+        "model": "store.album",
+        "fields": {
+            "product_id": "13",
+            "name": "Nectar",
+            "artist": "Joji",
+            "price": 20
+        }
+    },
+    {
+        "model": "store.album",
+        "fields": {
+            "product_id": "14",
+            "name": "Ballads 1",
+            "artist": "Joji",
+            "price": 20
+        }
+    },
+    {
+        "model": "store.album",
+        "fields": {
+            "product_id": "15",
+            "name": "Everything I Know About Love",
+            "artist": "Laufey",
+            "price": 20
+        }
+    },
+    {
+        "model": "store.album",
+        "fields": {
+            "product_id": "16",
+            "name": "Beatopia",
+            "artist": "beabadoobee",
+            "price": 20
+        }
+    },
+    {
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "21",
+            "name": "Marvel Cinematic Universe",
+            "price": 50
+        }
+    },
+    {
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "22",
+            "name": "Harry Potter",
+            "price": 80
+        }
+    },
+    {
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "23",
+            "name": "Naruto The Movie",
+            "price": 30
+        }
+    },
+    {
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "24",
+            "name": "Star Wars",
+            "price": 70
+        }
+    },
+    {
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "25",
+            "name": "Batman Trilogy",
+            "price": 40
+        }
+    },
+    {
+        "model": "store.movie",
+        "fields": {
+            "product_id": "31",
+            "name": "The Dark Knight",
+            "genre": "Action",
+            "director": "Christopher Nolan",
+            "actors": "Christian Bale, Heath Ledger",
+            "price": "15",
+            "franchise": "25"
+        }
+    },
+    {
+        "model": "store.movie",
+        "fields": {
+            "product_id": "32",
+            "name": "Iron Man",
+            "genre": "Action",
+            "director": "Jon Favreau",
+            "actors": "Robert Downey Jr., Gwyneth Paltrow",
+            "price": "15",
+            "franchise": "21"
+        }
+    },
+    {
+        "model": "store.movie",
+        "fields": {
+            "product_id": "33",
+            "name": "Star Wars: Episode II - Attack of the Clones",
+            "genre": "Sci-Fi",
+            "director": "George Lucas",
+            "actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
+            "price": "15",
+            "franchise": "24"
+        }
+    },
+    {
+        "model": "store.movie",
+        "fields": {
+            "product_id": "34",
+            "name": "The Truman Show",
+            "genre": "Psychological Drama",
+            "director": "Peter Weir",
+            "actors": "Jim Carrey",
+            "price": "15",
+            "franchise": null
+        }
+    },
+    {
+        "model": "store.movie",
+        "fields": {
+            "product_id": "35",
+            "name": "The Last: Naruto the Movie",
+            "genre": "Action",
+            "director": "Tsuneo Kobayashi",
+            "actors": null,
+            "price": "15",
+            "franchise": "23"
+        }
+    },
+    {
+        "model": "store.movie",
+        "fields": {
+            "product_id": "36",
+            "name": "The Avengers",
+            "genre": "Action",
+            "director": "Chris Evans",
+            "actors": "Robert Downey Jr., Mark Ruffalo",
+            "price": "15",
+            "franchise": "21"
+        }
+    }
+]

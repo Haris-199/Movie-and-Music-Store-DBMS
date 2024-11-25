@@ -1,57 +1,90 @@
 [
     {
-        "name": "Kendrick Lamar",
-        "genres": "Hip-Hop",
-        "listeners": 100000
+        "model": "store.artist",
+        "fields": {
+            "name": "Kendrick Lamar",
+            "genres": "Hip-Hop",
+            "listeners": 100000
+        }
     },
     {
-        "name": "BTS",
-        "genres": "K-Pop",
-        "listeners": 100000
+        "model": "store.artist",
+        "fields": {
+            "name": "BTS",
+            "genres": "K-Pop",
+            "listeners": 100000
+        }
     },
     {
-        "name": "Taylor Swift",
-        "genres": "Pop",
-        "listeners": 100000
+        "model": "store.artist",
+        "fields": {
+            "name": "Taylor Swift",
+            "genres": "Pop",
+            "listeners": 100000
+        }
     },
     {
-        "name": "Imagine Dragons",
-        "genres": "Rock",
-        "listeners": 100000
+        "model": "store.artist",
+        "fields": {
+            "name": "Imagine Dragons",
+            "genres": "Rock",
+            "listeners": 100000
+        }
     },
     {
-        "name": "Ph-1",
-        "genres": "K Hip-Hop",
-        "listeners": 10000
+        "model": "store.artist",
+        "fields": {
+            "name": "Ph-1",
+            "genres": "K Hip-Hop",
+            "listeners": 10000
+        }
     },
     {
-        "name": "Eminem",
-        "genres": "Hip-Hop",
-        "listeners": 100000
+        "model": "store.artist",
+        "fields": {
+            "name": "Eminem",
+            "genres": "Hip-Hop",
+            "listeners": 100000
+        }
     },
     {
-        "name": "JID",
-        "genres": "Hip-Hop",
-        "listeners": 50000
+        "model": "store.artist",
+        "fields": {
+            "name": "JID",
+            "genres": "Hip-Hop",
+            "listeners": 50000
+        }
     },
     {
-        "name": "Lana Del Rey",
-        "genres": "Alternative",
-        "listeners": 100000
+        "model": "store.artist",
+        "fields": {
+            "name": "Lana Del Rey",
+            "genres": "Alternative",
+            "listeners": 100000
+        }
     },
     {
-        "name": "Joji",
-        "genres": "lo-fi",
-        "listeners": 4000
+        "model": "store.artist",
+        "fields": {
+            "name": "Joji",
+            "genres": "lo-fi",
+            "listeners": 4000
+        }
     },
     {
-        "name": "Laufey",
-        "genres": "Jazz pop",
-        "listeners": 7000
+        "model": "store.artist",
+        "fields": {
+            "name": "Laufey",
+            "genres": "Jazz pop",
+            "listeners": 7000
+        }
     },
     {
-        "name": "beabadoobee",
-        "genres": "Indie rock",
-        "listeners": 7000
+        "model": "store.artist",
+        "fields": {
+            "name": "beabadoobee",
+            "genres": "Indie rock",
+            "listeners": 7000
+        }
     }
 ]

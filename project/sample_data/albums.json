@@ -1,38 +1,56 @@
 [
     {
-        "product_id": "11",
-        "name": "DAMN.",
-        "artist": "Kendrick Lamar",
-        "price": 20
+        "model": "store.album",
+        "fields": {
+            "product_id": "11",
+            "name": "DAMN.",
+            "artist": "Kendrick Lamar",
+            "price": 20
+        }
     },
     {
-        "product_id": "12",
-        "name": "Born to Die",
-        "artist": "Lana Del Rey",
-        "price": 20
+        "model": "store.album",
+        "fields": {
+            "product_id": "12",
+            "name": "Born to Die",
+            "artist": "Lana Del Rey",
+            "price": 20
+        }
     },
     {
-        "product_id": "13",
-        "name": "Nectar",
-        "artist": "Joji",
-        "price": 20
+        "model": "store.album",
+        "fields": {
+            "product_id": "13",
+            "name": "Nectar",
+            "artist": "Joji",
+            "price": 20
+        }
     },
     {
-        "product_id": "14",
-        "name": "Ballads 1",
-        "artist": "Joji",
-        "price": 20
+        "model": "store.album",
+        "fields": {
+            "product_id": "14",
+            "name": "Ballads 1",
+            "artist": "Joji",
+            "price": 20
+        }
     },
     {
-        "product_id": "15",
-        "name": "Everything I Know About Love",
-        "artist": "Laufey",
-        "price": 20
+        "model": "store.album",
+        "fields": {
+            "product_id": "15",
+            "name": "Everything I Know About Love",
+            "artist": "Laufey",
+            "price": 20
+        }
     },
     {
-        "product_id": "16",
-        "name": "Beatopia",
-        "artist": "beabadoobee",
-        "price": 20
+        "model": "store.album",
+        "fields": {
+            "product_id": "16",
+            "name": "Beatopia",
+            "artist": "beabadoobee",
+            "price": 20
+        }
     }
 ]

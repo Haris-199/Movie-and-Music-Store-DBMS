@@ -1,56 +1,74 @@
 [
     {
-        "product_id": "31",
-        "name": "The Dark Knight",
-        "genre": "Action",
-        "director": "Christopher Nolan",
-        "actors": "Christian Bale, Heath Ledger",
-        "price": "15",
-        "franchise": "Batman Trilogy"
+        "model": "store.movie",
+        "fields": {
+            "product_id": "31",
+            "name": "The Dark Knight",
+            "genre": "Action",
+            "director": "Christopher Nolan",
+            "actors": "Christian Bale, Heath Ledger",
+            "price": "15",
+            "franchise": "25"
+        }
     },
     {
-        "product_id": "32",
-        "name": "Iron Man",
-        "genre": "Action",
-        "director": "Jon Favreau",
-        "actors": "Robert Downey Jr., Gwyneth Paltrow",
-        "price": "15",
-        "franchise": "Marvel Cinematic Universe"
+        "model": "store.movie",
+        "fields": {
+            "product_id": "32",
+            "name": "Iron Man",
+            "genre": "Action",
+            "director": "Jon Favreau",
+            "actors": "Robert Downey Jr., Gwyneth Paltrow",
+            "price": "15",
+            "franchise": "21"
+        }
     },
     {
-        "product_id": "33",
-        "name": "Star Wars: Episode II - Attack of the Clones",
-        "genre": "Sci-Fi",
-        "director": "George Lucas",
-        "actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
-        "price": "15",
-        "franchise": "Star Wars"
+        "model": "store.movie",
+        "fields": {
+            "product_id": "33",
+            "name": "Star Wars: Episode II - Attack of the Clones",
+            "genre": "Sci-Fi",
+            "director": "George Lucas",
+            "actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
+            "price": "15",
+            "franchise": "24"
+        }
     },
     {
-        "product_id": "34",
-        "name": "The Truman Show",
-        "genre": "Psychological Drama",
-        "director": "Peter Weir",
-        "actors": "Jim Carrey",
-        "price": "15",
-        "franchise": null
+        "model": "store.movie",
+        "fields": {
+            "product_id": "34",
+            "name": "The Truman Show",
+            "genre": "Psychological Drama",
+            "director": "Peter Weir",
+            "actors": "Jim Carrey",
+            "price": "15",
+            "franchise": null
+        }
     },
     {
-        "product_id": "35",
-        "name": "The Last: Naruto the Movie",
-        "genre": "Action",
-        "director": "Tsuneo Kobayashi",
-        "actors": null,
-        "price": "15",
-        "franchise": "Naruto The Movie"
+        "model": "store.movie",
+        "fields": {
+            "product_id": "35",
+            "name": "The Last: Naruto the Movie",
+            "genre": "Action",
+            "director": "Tsuneo Kobayashi",
+            "actors": null,
+            "price": "15",
+            "franchise": "23"
+        }
     },
     {
-        "product_id": "36",
-        "name": "The Avengers",
-        "genre": "Action",
-        "director": "Chris Evans",
-        "actors": "Robert Downey Jr., Mark Ruffalo",
-        "price": "15",
-        "franchise": "Marvel Cinematic Universe"
+        "model": "store.movie",
+        "fields": {
+            "product_id": "36",
+            "name": "The Avengers",
+            "genre": "Action",
+            "director": "Chris Evans",
+            "actors": "Robert Downey Jr., Mark Ruffalo",
+            "price": "15",
+            "franchise": "21"
+        }
     }
 ]

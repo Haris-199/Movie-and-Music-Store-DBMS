@@ -1,27 +1,42 @@
 [
     {
-        "product_id": "21",
-        "name": "Marvel Cinematic Universe",
-        "price": 50
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "21",
+            "name": "Marvel Cinematic Universe",
+            "price": 50
+        }
     },
     {
-        "product_id": "22",
-        "name": "Harry Potter",
-        "price": 80
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "22",
+            "name": "Harry Potter",
+            "price": 80
+        }
     },
     {
-        "product_id": "23",
-        "name": "Naruto The Movie",
-        "price": 30
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "23",
+            "name": "Naruto The Movie",
+            "price": 30
+        }
     },
     {
-        "product_id": "24",
-        "name": "Star Wars",
-        "price": 70
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "24",
+            "name": "Star Wars",
+            "price": 70
+        }
     },
     {
-        "product_id": "25",
-        "name": "Batman Trilogy",
-        "price": 40
+        "model": "store.franchise",
+        "fields": {
+            "product_id": "25",
+            "name": "Batman Trilogy",
+            "price": 40
+        }
     }
 ]

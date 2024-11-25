@@ -1,66 +1,90 @@
 [
     {
-        "product_id": "1",
-        "name": "HUMBLE.",
-        "artist": "Kendrick Lamar",
-        "genre": "Hip-Hop",
-        "album": "DAMN.",
-        "price": 10
+        "model":"store.song",
+        "fields": {
+            "product_id": "1",
+            "name": "HUMBLE.",
+            "artist": "Kendrick Lamar",
+            "genre": "Hip-Hop",
+            "album": "DAMN.",
+            "price": 10
+        }
     },
     {
-        "product_id": "2",
-        "name": "Summertime Sadness",
-        "artist": "Lana Del Rey",
-        "genre": "Alternative",
-        "album": "Born to Die",
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "2",
+            "name": "Summertime Sadness",
+            "artist": "Lana Del Rey",
+            "genre": "Alternative",
+            "album": "Born to Die",
+            "price": 10
+        }
     },
     {
-        "product_id": "3",
-        "name": "Dark Paradise",
-        "artist": "Lana Del Rey",
-        "genre": "Trip hop",
-        "album": "Born to Die",
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "3",
+            "name": "Dark Paradise",
+            "artist": "Lana Del Rey",
+            "genre": "Trip hop",
+            "album": "Born to Die",
+            "price": 10
+        }
     },
     {
-        "product_id": "4",
-        "name": "Sanctuary",
-        "artist": "Joji",
-        "genre": "lo-fi",
-        "album": "Nectar",
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "4",
+            "name": "Sanctuary",
+            "artist": "Joji",
+            "genre": "lo-fi",
+            "album": "Nectar",
+            "price": 10
+        }
     },
     {
-        "product_id": "5",
-        "name": "SLOW DANCING IN THE DARK",
-        "artist": "Joji",
-        "genre": "RnB",
-        "album": "Balads 1",
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "5",
+            "name": "SLOW DANCING IN THE DARK",
+            "artist": "Joji",
+            "genre": "RnB",
+            "album": "Balads 1",
+            "price": 10
+        }
     },
     {
-        "product_id": "6",
-        "name": "Falling Behind",
-        "artist": "Laufey",
-        "genre": "Jazz pop",
-        "album": "Everything I Know About Love",
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "6",
+            "name": "Falling Behind",
+            "artist": "Laufey",
+            "genre": "Jazz pop",
+            "album": "Everything I Know About Love",
+            "price": 10
+        }
     },
     {
-        "product_id": "7",
-        "name": "the perfect pair",
-        "artist": "beabadoobee",
-        "genre": "Indie rock",
-        "album": "Beatopia",
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "7",
+            "name": "the perfect pair",
+            "artist": "beabadoobee",
+            "genre": "Indie rock",
+            "album": "Beatopia",
+            "price": 10
+        }
     },
     {
-        "product_id": "8",
-        "name": "Glue Song",
-        "artist": "beabadoobee",
-        "genre": "Indie pop",
-        "album": null,
-        "price": 10
+        "model": "store.song",
+        "fields":{
+            "product_id": "8",
+            "name": "Glue Song",
+            "artist": "beabadoobee",
+            "genre": "Indie pop",
+            "album": null,
+            "price": 10
+        }
     }
 ]
