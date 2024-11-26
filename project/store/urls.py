@@ -2,6 +2,7 @@ from django.urls import path
 from .views import (home, ArtistListView, ArtistSearchListView, ArtistCreateView, ArtistUpdateView, ArtistDeleteView, SongListView, SongSearchListView, SongCreateView, SongUpdateView, SongDeleteView, AlbumListView, AlbumSearchListView, AlbumCreateView, AlbumUpdateView, AlbumDeleteView, FranchiseListView, FranchiseSearchListView, FranchiseCreateView, FranchiseUpdateView, FranchiseDeleteView, MovieListView, MovieSearchListView, MovieCreateView, MovieUpdateView, MovieDeleteView)
 
 
+# These are the routes a user may visit
 urlpatterns = [
     path('', home, name='store-home'),
     
